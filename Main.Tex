@@ -1,0 +1,219 @@
+
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{amssymb}
+\usepackage{empheq}
+\usepackage{chemformula}
+
+\title{\Huge \textbf{Statistical Approach to
+Molecular Collisions}}
+
+
+
+\author{Riddhiman Bhattacharya}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\large 
+
+The issue of redistribution of the vibrational-rotational energy of polyatomic molecules M and $M_1$ in their pairwise collisions based on microcanonical distribution is taken into consideration in relation to the chaotic dynamics of the transient state in molecular and physicochemical transitions in quantum-classical mechanics. When the semiclassical approximation for the density of vibrational-rotational states is applicable, the statistical (canonical) distribution of the probability of energy change due to collisions in the case of a small impurity M in an equilibrium medium of $M_1$ is obtained, along with all of its moments n, which are some polynomials of the nth order.
+\end{abstract}
+\Large
+
+
+\section{\Large Introduction}
+
+As is well known, the convergence of a number of time-dependent perturbation theories is the foundation of the quantum mechanics theory of quantum transitions. Atomic and nuclear physics is where this series converges. In molecular physics, the Born-Oppenheimer[1,2] adiabatic approximation and the Franck-Condon[8] principle must be properly adhered to for the series of time-dependent perturbation theory to converge. It goes without saying that there are always at least minor departures from the adiabatic approximation in real molecular systems. These variations result in peculiar dynamics of molecular quantum transitions within the context of quantum mechanics. 
+The only method to get rid of this singularity is to add chaos to the transitory state's electron-nuclear dynamics. We no longer have quantum mechanics[9,10,11]; instead, we have quantum-classical mechanics, in which the transient chaotic electron-nuclear(vibrational) state is classical due to chaos, the transitions themselves are no longer quantum but quantum-classical [1,2], and the initial and final states are quantum in the adiabatic approximation. In the simplest situation of quantum-classical mechanics, namely the case of quantum-classical mechanics of elementary electron transfers in condensed media, this approach for introducing chaos into the transient state was carried out. The total Green function of the "electron + nuclear environment" system's energy denominator has an infinitely small imaginary addition that must be replaced by a finite number in order to avoid chaos [1,2]. Dozy chaos[7] is the name given to this chaos, and dozy-chaos mechanics is the name given to quantum-classical mechanics. Many physics issues have been successfully solved using analytical techniques, especially those involving intricate physical systems. The study of molecule collisions in gases, which is useful in comprehending monomolecular reactions at low pressures, is one such issue. Molecular collisions in gases predominantly involve the redistribution of vibrational energy among the local vibrations inside the colliding polyatomic molecules, as opposed to electron transfers in condensed media, where major changes in electronic states take place.
+
+During the migration of the nuclei in molecular collisions, a momentary chaotic condition appears. However, statistical techniques that use the microcanonical distribution for molecular collisions can be used to adequately represent this state. Despite the slowed dynamics of the transitory state in electron transfers The statistical technique for molecular collisions relies on capturing the dynamics of energy redistribution between the local vibrations of colliding polyatomic molecules, whereas the dynamics of the transient state in electron transfers is suppressed by dozy chaos. By dividing the vibrational modes into active and passive components, this is accomplished.
+Low-frequency vibrational and rotational modes that rapidly exchange energy at the time of impact are included in the active modes. On the other hand, high-frequency vibrational modes make up the passive modes, which help with the energy redistribution after the fundamental molecular collision has taken place. 
+
+
+
+\section{\Large Analysis}
+
+Let's consider the collision of two polyatomic molecules $M$ and $M_1$ with the initial parameters (I mean before collision) of vibrational rotational energies are $x$ and $v_1$, and $x'$ and $v'_1$
+\begin{equation}
+    M(x) + M_1(v_1) \rightarrow M(x') + M(v'_1)
+    \label{1}
+\end{equation}
+
+
+
+
+We know that process of collision is characterised by $w(\Gamma'_i, \Gamma_i)$ or the effective area of cross section of collisons $d\sigma$ [3]
+
+\begin{equation}
+    d\sigma = \frac{w (\Gamma'_i, \Gamma_i )\prod_i d\Gamma'_i}{| \Vec{V}'-\Vec{V'_1}|}
+    \label{2}
+\end{equation}
+
+where $\Gamma_i$ is the phase volume of the vibrational rotational motion of M or $M_1$ molecule or can be the phase volume of their relative motion.The function $w$ depends on all of i-th phase voulmes , and $| \Vec{V}'-\Vec{V'_1}|$  is the magnitude of the relative velocity.
+
+
+The distribution function for two collisions 
+$w(\Gamma'_i, \Gamma_i)$ must obey two fundamental relations[3]
+
+  \begin{equation}
+      w(\Gamma'_i, \Gamma_i)=w(\Gamma^T_i, \Gamma^T_i)
+      \label{4}
+  \end{equation}
+
+    \begin{equation}
+        \int w (\Gamma'_i, \Gamma_i )\prod_i d\Gamma'_i=\int w (\Gamma_i, \Gamma'_i )\prod_i d\Gamma'_i=1
+        \label{5}
+    \end{equation}
+    
+    
+
+
+These follow from symmetry of laws of mechanics with rspect to T(Time sign reversal operation) and writing the probability normalization for collision conditions in two equivalent forms.
+
+
+
+
+Due to the relatively large no. of Degrees of Freedom of $M+M_1$, it's quasi-closure at moment of collision, we can assume the 
+$$ \rho\equiv \frac{d\sigma}{\prod_i d\Gamma'_i}=\frac{w(\Gamma'_i, \Gamma_i)}{| \Vec{V}'-\Vec{V'_1}|}$$ is the following microcanonical distributions for collisions
+
+
+\begin{equation}
+\fbox{
+$\displaystyle
+\begin{aligned}
+\rho[&\Gamma'_a(x'_a),\Gamma'_p(x'_p),\Gamma'_\text{1a}(v'_\text{1a}),\Gamma'_\text{1p}(v'_\text{1p}),\Gamma'_t(v'_t); \\
+&\Gamma_a(x_a), \Gamma_p(x_p), \Gamma_\text{1a}(v_\text{1a}),\Gamma_\text{1p}(v_\text{1p}),\Gamma_t(v_t)] \\
+&= \delta(x'_a+x'_p+ v'_\text{1a}+v'_\text{1a}+v'_\text{1p}+v'_t-x_a-x_p-v_\text{1a}-v_\text{1p}-v_t) \\
+&\times\delta(x'_p-x_p)\delta  (v'_\text{1p}-v_\text{1p})
+\end{aligned}
+$}
+\end{equation}
+\label{eq:3}
+
+
+
+The first $\delta$ in the above expression is used to express the law of conservation of energy in case of collisions, and the other  two $\delta$ is used for implying the presence of two additional integrals of motion in collisions
+corresponding to the molecules $M$ and $ M_1$. They express that only parts of the
+phase volumes $\Gamma(x)$ and $\Gamma_1(v_1)$ of the molecules $M$ and $M_1$ change during the collision, This is called as \textbf{active} and is marked with index a. And the other remaining parts of
+the phase volumes, degrees of freedom, and energies is called as \textbf{passive}, marked by index p. Thus,
+the last two $\delta$ functions represent the conservation of the passive energies
+of the molecules during collisions.
+
+It is easy to see that the microcanonical distribution in the expression satisfies the fundamental
+relations \eqref{4} and \eqref{5}
+
+The constant in the boxed expressions can be found out from the condition of normalization \eqref{2}
+
+\begin{equation}
+\fbox{
+$\displaystyle
+\begin{aligned}
+\omega &= |\Vec{V'}-\Vec{V'_1}|\delta(x'_a+x'_p+v'_\text{1a}+v'_\text{1a}+v'_\text{1p}+v'_t-x_a-x_p-v_\text{1a}-v_\text{1p}-v_t) \\
+&\quad \times \delta(x'_p-x_p)\delta(v'_\text{1p}-v_\text{1p}) \\
+&\quad \times \left[\Omega^p(x_p)\Omega^p_1(v_1^p \int_{x-x_a}^{x+v_a} \Omega^a(x'-x+x_a)\tau_a(x+v_a-x')dx'\right]^{-1}
+\end{aligned}
+$}
+\end{equation}
+\label{eq:6}
+
+where $x=x_a+x_p$; $v_a=v_{1a}+v_t$, and $\tau_a=\int_{0}^y(y-z)\Omega_1^a(z)dz$, $ y=x+v_a-x'$; and $\Omega(\epsilon)\equiv\frac{d\Gamma}{d\epsilon}$ is the density of the states.
+
+
+Now let's consider the situation where $M$ molecules contain small impurity and is in equilibrium medium of molecules $M_1$.  
+$M$ rarely collides with itself; it only collides with molecules.
+ $M_1$. 
+ Let us find under these
+conditions,  the probability of transition $P(x', x)$ in the collision of the molecule M possessing 
+energy $x$, from one state to a unit energy interval at the point $x'$.  
+    
+\begin{equation}
+    P(x',x)= \Omega^-1(x)R^-1 \int_{0}^\infty dv\exp (-v)\int_{0}^v\tau_a(v_a)D(x',x;v_a)\Omega_1^p(v-v_a)dv_a
+    \label{7}
+\end{equation}
+
+\begin{equation}
+    D(x',x;v_a)=\int_{0}^x D(x',x;x_a,v_a)\Omega^p(x-x_a)dx_a
+    \label{8}
+\end{equation}
+
+\begin{equation}
+\begin{aligned}
+    D(x',x;v_a) &= \Omega^p(x'-x+x_a)\tau_a(x+v_a-x')\theta(x'-x+x_a) \theta(x+v_a-x') \\
+    &\quad \times \left[\int_{x-x_a}^{x+x_a}\Omega^p(x'-x+x_a)\tau_a(x+v_a-x')dx'\right]^{-1}
+\end{aligned}
+\label{9}
+\end{equation}
+
+
+
+$$R=\int_{0}^\infty dv\exp(-v)\int_{0}^v\tau_a(v_a)\Omega_1^p(v-v_a)dv_a$$
+
+
+The Canonical distribution for collisions of Polyatomic molecules $P(x',x)$ satisfies the normalisation conditon
+
+\begin{equation}
+    \int_{0}^\infty P(x',x)dx'=1
+    \label{10}
+\end{equation}
+
+
+
+
+
+The moments of the energy transferred during collisions
+
+\begin{equation}
+  \langle  \langle \Delta x \rangle^n \rangle= \int_{0}^{\infty} (x' - x)^n P(x',x) \, dx'; \quad n = 1,2,3,\ldots
+\label{11}
+\end{equation}
+
+Under the conditions of applicability of semi-classical approximation for the density of states ($\Omega(\epsilon)$) with respect to energy x:
+
+\begin{equation}
+\fbox{\small
+$\displaystyle
+\begin{aligned}
+\langle\langle \Delta x \rangle^n \rangle &= \sum_{m=0}^n (-1)^m C^m_n x^m \prod_{\alpha,\beta,\gamma=1}^{n,n-m,m} \frac{(N^\alpha+\beta-1)(N_1^\alpha+\beta+1)(N^\alpha+\gamma-1)(N_1^\alpha+\gamma-1)}{(N^\alpha+N_1^\alpha+\alpha+1)(N+\gamma-1)} \\
+&\equiv CMP_n(x)
+\end{aligned}
+$}
+\label{12}
+\end{equation}
+
+
+where $N$ is the sum of the no.of vibrational and half of the no.of rotational degrees of freedom, so these moments can be called as Canonical Moments of collisions ($CMP_n(x)$) of Polyatomic molecules.
+
+So, for $CMP_{n=1}$
+\begin{equation}
+    \langle \Delta x \rangle\equiv CMP_{n=1}(x)=\frac{N^a(N^a_{1}+2}{N^a+N^a_{1}+2} (1-\frac{x}{N})
+    \label{10}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
